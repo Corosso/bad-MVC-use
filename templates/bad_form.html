@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Incorrecto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Registro Incorrecto</h2>
+    <div class="form-container">
+        <form action="/bad_register" method="POST">
+            <label for="universidad">Universidad:</label>
+            <input type="text" id="universidad" name="universidad" required>
+
+            <label for="carrera">Carrera:</label>
+            <input type="text" id="carrera" name="carrera" required>
+
+            <label for="facultad">Facultad:</label>
+            <input type="text" id="facultad" name="facultad" required>
+
+            <label for="celular">Número de Celular:</label>
+            <input type="text" id="celular" name="celular" required>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
