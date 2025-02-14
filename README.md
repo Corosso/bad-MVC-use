@@ -10,10 +10,7 @@ git clone <URL_DEL_REPOSITORIO>
 cd proyecto-mvc-arquitectura
 ```
 
-### 2️⃣ Crear y activar un entorno virtual
-```bash
-python -m venv env-proyecto
-```
+### 2️⃣Activar un entorno virtual
 - En Windows:
   ```bash
   env-proyecto\Scripts\activate
