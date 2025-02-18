@@ -19,5 +19,3 @@ def bad_register():
     nuevo_usuario = UserBad(universidad, carrera, facultad, celular)
     db.session.add(nuevo_usuario)
     db.session.commit()
-
-    

@@ -16,5 +16,5 @@ class UserController:
         db.session.add(nuevo_usuario)
         db.session.commit()
 
-        # 🔄 Redirigir a la vista mala después de registrar
-        return redirect(url_for('bad_bp.bad_form'))  # Redirige a la vista mala
+        #Redirigir a la vista mala después de registrar
+        return redirect(url_for('bad_bp.bad_form'))
